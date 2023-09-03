@@ -21,7 +21,7 @@ while True:
                 screen_x_axis = screen_width / frame_width * x
                 screen_y_axis = screen_height / frame_height * y
                 pyautogui.moveTo(screen_x_axis, screen_y_axis)
-        left = [landmarks[140], landmarks[160]]
+        left = [landmarks[145], landmarks[159]]
         for landmark in left:
             x = int(landmark.x * frame_width)
             y = int(landmark.y * frame_height)
